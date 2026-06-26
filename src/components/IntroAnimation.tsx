@@ -50,7 +50,7 @@ const IntroAnimation: React.FC<IntroAnimationProps> = ({ onComplete }) => {
           <div 
             className="w-full h-full"
             style={{
-              backgroundImage: "url('/ana_yuz2.jpeg')",
+              backgroundImage: "url('./ana_yuz2.jpeg')", // <-- Github Pages'te resmi bulabilmesi için başına nokta eklendi
               backgroundSize: "auto 120%", 
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center 30%", // Yüzün biraz daha yukarıda kalması için
